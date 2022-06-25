@@ -1,0 +1,244 @@
+.wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+
+
+.top {
+    width: 100%; /* full resolution */
+    background-color: #1f2937; /* testing menubar */
+    color: #f9faf8;
+    padding: 0 0 40px 0;
+    margin: 0 0 3px 0;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 5px;
+    padding: 5px 10px;
+    margin-top: -5px;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.flex_nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: -45px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    padding: 15px 100px;
+    gap: 15px
+}
+
+.h_left {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 440px;
+    margin-right: 50px;
+}
+
+.but_top, .but_bot {
+    background-color: #3882f6;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.h_right {
+    color: rgb(216, 216, 216);
+    background-color: rgba(170, 170, 170, 0.5);
+    /* margin: 5px 10px; */
+    margin-left: 50px;
+    border: 2px solid rgba(112, 112, 112, 0.404); 
+    padding: 5.0px 12.0px;
+    text-align: center;
+    max-width: 440px;
+    
+}
+
+.h_left>h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin-bottom: -15px;
+}
+
+.middle>h3 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+/* h3, .gallery, .zone_text {
+    text-align: center;
+    display: flex;
+    flex-flow: wrap column;
+} */
+
+.zone_pic>img {
+    color: rgb(190, 190, 190);
+    margin: 5px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    padding: 70px;
+    gap: 10px;
+}
+
+/* .text1, .text2,  {
+    max-width: 1000px;
+        color: rgb(190, 190, 190);
+        margin: 5px;
+    background-color: aliceblue;
+        border-radius: 17%;
+        padding: 0 -1000px;
+        gap: 10px;
+    
+}
+
+.text3, .text4 {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 50px;
+    padding: -100px;
+    margin: -15px -100px;
+} */
+
+/* .zone_text {
+     color: rgb(192, 1, 1);
+    text-align: center; 
+    border: 10px solid steelblue;    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+} */
+/* 
+.text1 {
+    background-color: orange;
+    padding: 16px;
+    margin: 16px;
+    width: 400px;
+
+}
+.text2 {
+    background-color: green;
+    padding: 16px;
+    margin: 16px;
+    width: 250px;
+
+}
+.text3 {
+    background-color: aquamarine;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+
+}
+.text4 {
+    background-color: plum;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+
+} */
+
+/* .text {
+    background-color: plum;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+
+} */
+
+.gallery, h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+    padding-bottom: 40px;
+    margin: 50px auto;
+}
+
+.zone_pic {
+max-width: 180px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(199, 199, 199, 0.9);
+    padding: 50px;
+    margin: 50px auto 40px;
+}
+
+.quote>p, .qt_right {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    max-width: 800px;
+}
+
+.quote>.qt_right { 
+    display: flex;
+    flex: 0 -1 50px;
+    justify-content: end;
+    margin-top: 200px;
+    margin-left: -400px;    
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 40px auto 80px;
+    padding: 20px 40px;
+    gap: 150px;
+}
+
+/* .b_left {
+    padding: 0 -100px;
+} */
+
+.bottom>.b_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0 -20px;
+}
+    
+.but_bot {
+    border: 2px solid #f9faf8;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: #1f2937;
+    color: #f9faf8; 
+    margin: 60px auto 0;
+    padding: 15px;
+}
+/* .end>p {
+    padding: 50px;
+    margin: 10px auto;
+} */
