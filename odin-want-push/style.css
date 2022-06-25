@@ -1,0 +1,198 @@
+    /* ################################# Z3roNam3Cod3 ################################# */
+
+.wrapper {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+a { /* any link stuff */
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+li>a {
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+/* -------------------------------- Start of Top Zone -------------------------------- */
+
+.top {
+    width: 100%; /* full resolution */
+    background-color: #1f2937; /* testing menubar */
+    color: #f9faf8;
+    padding: 0 0 40px 0;
+    margin: 0 0 3px 0;
+}
+
+.logo { /* just a text for now */
+    font-size: 24px;
+    margin-left: 5px;
+    padding: 5px 10px;
+    margin-top: -5px;
+}
+
+.flex_nav>ul { /* Nav-bar with pseudo-link */
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: -45px;
+    padding-right: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    padding: 15px 100px;
+    gap: 15px
+}
+
+.h_left { /* hero Left Zone */
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 440px;
+    margin-right: 50px;
+}
+
+.h_right { /* hero Right Zone */
+    color: rgb(216, 216, 216);
+    background-color: rgba(170, 170, 170, 0.5);
+    margin-left: 50px;
+    border: 2px solid rgba(112, 112, 112, 0.404); 
+    padding: 5.0px 12.0px;
+    text-align: center;
+    max-width: 440px;
+    
+}
+
+.h_left>h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin-bottom: -15px;
+}
+
+/* -------------------------------- End of Top Zone -------------------------------- */
+
+.but_top, .but_bot { /* buttons style */
+    background-color: #3882f6;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+/* -------------------------------- Start of Middle Zone -------------------------------- */
+
+.gallery, h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+    padding-bottom: 40px;
+    margin: 50px auto;
+}
+
+.middle>h3 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.zone_pic {
+    max-width: 180px;
+    }
+
+.zone_pic>img {
+    color: rgb(190, 190, 190);
+    margin: 5px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    padding: 70px;
+    gap: 10px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(199, 199, 199, 0.9);
+    padding: 50px;
+    margin: 50px auto 40px;
+}
+
+.quote>p, .qt_right {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    max-width: 800px;
+}
+
+.quote>.qt_right {  /* IN quote Right Zone */
+    display: flex;
+    flex: 0 -1 50px;
+    justify-content: end;
+    margin-top: 200px;
+    margin-left: -400px;    
+}
+
+/* -------------------------------- End of Middle Zone -------------------------------- */
+
+/* -------------------------------- Start of Bottom Zone -------------------------------- */
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 40px auto 80px;
+    padding: 20px 40px;
+    gap: 150px;
+}
+
+.bottom>.b_right { /* IN bottom Right Zone */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0 -20px;
+}
+    
+.but_bot {
+    border: 2px solid #f9faf8;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: #1f2937;
+    color: #f9faf8; 
+    margin: 60px auto 0;
+    padding: 15px;
+}
+
+button, button>.b_end { /* extra stuff */
+    display: flex;
+    border-style: none;
+    background-color: #1f2937;
+    margin: -60px 30px 0 auto;
+    padding: 6px 2px;
+}
+button>a {
+    background-color: #3882f6;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* -------------------------------- End of Bottom Zone -------------------------------- */
+
+
+    /* ################################# Z3roNam3Cod3 ################################# */
