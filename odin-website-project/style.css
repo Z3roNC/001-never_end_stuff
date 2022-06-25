@@ -1,0 +1,31 @@
+
+
+
+.ind-der {
+    /* background-color: blueviolet; */
+    color: rgb(32, 250, 250);
+    text-align: center;
+    
+}
+
+/* .hero-sky {
+    height: min-content 300px;
+    width: min-content 500px;
+} */
+
+#pg-der {
+    background-color: rgb(52, 253, 119);
+}
+
+
+.ind-ain {
+    background-color: goldenrod;
+}
+
+.ind-ody {
+    background-color: skyblue;
+} 
+
+.ind-ter {
+    background-color: aquamarine;
+}
